@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/Turbasen/proxy#readme",
   "dependencies": {
-    "http-proxy": "^1.11.1"
+    "http-proxy": "^1.11.1",
+    "supervisor": "^0.6.0"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
-    "supervisor": "^0.6.0"
   },
   "config": {
     "VIRTUAL_PORT": 8080,
