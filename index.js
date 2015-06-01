@@ -46,6 +46,7 @@ var server = http.createServer(function(req, res) {
   // Add API key parameter
   u = url.parse(req.url, true);
   u.query.api_key = api.key;
+  u.search = undefined; // query  will only be used if search is absent
   req.url = url.format(u);
 
   proxy.web(req, res, { target: 'http://' + req.headers.host });
