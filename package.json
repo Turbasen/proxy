@@ -1,0 +1,39 @@
+{
+  "name": "turbasen-proxy",
+  "version": "1.0.0",
+  "description": "REST Proxy for Nasjonal Turbase API",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.js",
+    "start": "./node_modules/.bin/supervisor index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Turbasen/proxy.git"
+  },
+  "keywords": [
+    "Nasjonal",
+    "Turbase",
+    "Proxy",
+    "API",
+    "DNT"
+  ],
+  "author": "Hans Kristian Flaatten <hans.kristian.flaatten@turistforeningen.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turbasen/proxy/issues"
+  },
+  "homepage": "https://github.com/Turbasen/proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.11.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "supervisor": "^0.6.0"
+  },
+  "config": {
+    "VIRTUAL_PORT": 8080,
+    "NTB_ENV": "api",
+    "NTB_KEY": ""
+  }
+}
