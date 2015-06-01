@@ -1,0 +1,13 @@
+dev:
+    image: iojs:1
+    working_dir: /usr/src/app
+    volumes:
+        - .:/usr/src/app
+    command: npm start
+    expose:
+        - "8080"
+    env_file: .env
+    environment:
+        - VIRTUAL_HOST=proxy.turbasen.privat
+        - VIRTUAL_PORT=8080
+        - NTB_ENV=api
