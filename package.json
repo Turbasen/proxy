@@ -1,6 +1,6 @@
 {
   "name": "turbasen-proxy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "REST Proxy for Nasjonal Turbase API",
   "main": "index.js",
   "scripts": {
