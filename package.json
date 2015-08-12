@@ -26,7 +26,7 @@
   "homepage": "https://github.com/Turbasen/proxy#readme",
   "dependencies": {
     "http-proxy": "^1.11.1",
-    "supervisor": "^0.6.0"
+    "supervisor": "^0.7.1"
   },
   "devDependencies": {
     "mocha": "^2.2.5"
