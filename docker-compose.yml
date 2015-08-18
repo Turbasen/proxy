@@ -4,7 +4,7 @@ dev:
     volumes:
         - .:/usr/src/app
     command: npm start
-    expose:
+    ports:
         - "8080"
     env_file: .env
     environment:
