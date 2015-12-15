@@ -1,5 +1,5 @@
 dev:
-    image: iojs:slim
+    image: node:slim
     working_dir: /usr/src/app
     volumes:
         - .:/usr/src/app
